@@ -11,7 +11,8 @@ Flat.create!(
   address: 'Le Cap, Cap-Occidental, Afrique du Sud',
   description: 'Cette spacieuse maison familiale moderne dispose de 5 chambres à coucher. La chambre principale ( salle de bains) dispose d\'un lit king size, les quatre autres chambres ont des lits queen size.',
   price_per_night: 100,
-  number_of_guest: 5
+  number_of_guest: 5,
+  picture_url: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
 )
 puts 'Creating the 2nd flat...'
 Flat.create!(
@@ -19,7 +20,8 @@ Flat.create!(
   address: 'Flores da Cunha, Rio Grande do Sul, Brésil',
   description: 'Un chalet isolé à São Gotardo - Flores da Cunha, confortable pour vous de profiter de bons moments avec ceux que vous aimez.',
   price_per_night: 55,
-  number_of_guest: 2
+  number_of_guest: 2,
+  picture_url: 'https://images.unsplash.com/photo-1522071500372-f0fd8c452178?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
 )
 puts 'Creating the 3rd flat...'
 Flat.create!(
@@ -27,7 +29,8 @@ Flat.create!(
   address: 'Dolphin Sands, Tasmanie, Australie',
   description: 'Cette retraite privée spectaculaire offre une vue imprenable, 85 mètres de front de mer et un hébergement de luxe. Plages de sable blanc, océan turquoise et paysage intact, « Éléments » a un attrait incomparable.',
   price_per_night: 500,
-  number_of_guest: 6
+  number_of_guest: 6,
+  picture_url: 'https://images.unsplash.com/photo-1615571022219-eb45cf7faa9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
 )
 puts 'Creating the 4th flat...'
 Flat.create!(
@@ -35,7 +38,8 @@ Flat.create!(
   address: 'Le Marin, Martinique',
   description: 'Une villa située dans la commune du Marin, avec une vue imprenable sur la campagne depuis la terrasse. Sérénité, calme et modernité, ces mots décrivent parfaitement cette magnifique location pour 8 personnes. Les 150 m² de la villa ont été récemment rénové en été 2022. ',
   price_per_night: 300,
-  number_of_guest: 8
+  number_of_guest: 8,
+  picture_url: 'https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
 )
 
 puts 'Finished!'
